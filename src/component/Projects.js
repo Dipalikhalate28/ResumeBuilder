@@ -4,7 +4,7 @@ import React, { useState } from 'react'
 function Projects() {
 
     const [projects, setProjects] = useState([ProjectTemplate()]);
-    const [projectNo, setProjectNo] = useState(1);
+    // const [projectNo, setProjectNo] = useState(1);
 
 
     const handleOpenContainer = () => {
@@ -77,9 +77,6 @@ const ProjectTemplate = () => {
                 placeholder="Enter your project responsibilities "
             />
         </Grid>
-        {/* {Array.isArray(summaryList) && summaryList.length  ? <ul style={{display:'flex',flexDirection:'column',alignItems:'flex-start'}}>
-    {summaryList.map((ele,index)=> <li>{ele.val}<Button onClick={() => removeItem(ele)}>x</Button></li>) } </ul> : " "} */}
-
 
     </Grid>
 }
