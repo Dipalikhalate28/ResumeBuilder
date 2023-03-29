@@ -1,0 +1,31 @@
+.paperContainer {
+    background-image: url(../../src/assets/images/login-illustration.svg);
+    background-size: cover;
+    width: inherit;
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-position: center;
+}
+
+.box {
+    margin-top: 200px;
+    margin-left: 100px;
+}
+
+.griditem {
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .paperContainer {
+        height: 60vh;
+    }
+
+    .box {
+        margin-top: 50px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+}

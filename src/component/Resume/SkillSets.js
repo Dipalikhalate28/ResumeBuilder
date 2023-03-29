@@ -1,12 +1,10 @@
 import { Grid, TextField } from '@mui/material'
 import React from 'react'
-import resume from "../style/resume.css"
+import resume from "../../style/resume.css"
 
 function SkillSets() {
     return (
         <>
-
-
             <Grid container>
                 <Grid item lg={12} sx={12}>
                     <h2 style={{ border: "0.1px solid #239ce2", backgroundColor: '#239ce2', textAlign: 'center', color: '#fff' }}>Skill Set</h2>

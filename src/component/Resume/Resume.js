@@ -1,9 +1,7 @@
 import { Button, FormControl, Grid, InputLabel, MenuItem, Select, TextField } from "@mui/material";
 import React, { useState } from "react";
-import resume from "../style/resume.css"
+import resume from "../../style/resume.css"
 import Education from "./Education";
-import ProfessionalSummary from "./ProfessionalSummary";
-import Skillset from "./Skillset";
 import SkillSets from "./SkillSets";
 import WorkExperience from "./WorkExperience";
 
@@ -143,7 +141,7 @@ function Resume() {
           </div>
           {/* <Skillset/> */}
           <SkillSets />
-          <ProfessionalSummary />
+       
           <Education />
           <WorkExperience />
         </div>

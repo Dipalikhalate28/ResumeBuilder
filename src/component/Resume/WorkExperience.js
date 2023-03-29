@@ -1,6 +1,6 @@
-import { KeyboardDatePicker } from '@material-ui/pickers';
 import { Button, Grid, TextField } from '@mui/material'
 import React, { useState } from 'react'
+import DatePicker from './DatePicker';
 import Projects from './Projects'
 
 function WorkExperience() {
@@ -21,10 +21,9 @@ function WorkExperience() {
                 return company;
             })}
             <Grid item xs={12} sx={{ display: 'flex', justifyContent: 'flex-end', padding: '10px' }}>
-                <Button variant="contained" onClick={handleOpenCompanies}>Add</Button>
+                <Button variant="contained" onClick={handleOpenCompanies}>Add Company</Button>
 
             </Grid>
-
             <Projects />
         </>
     )
@@ -63,7 +62,6 @@ const WorkExperienceTemplate = () => {
                     label="Period From"
                     placeholder="Enter your Working Period in last  Company "
                 />
-
             </Grid>
             <Grid item xs={5} >
                 <TextField
@@ -89,6 +87,11 @@ const WorkExperienceTemplate = () => {
                 />
             </Grid>
 
+
         </Grid>
+
+
+
+
     </>
 }
